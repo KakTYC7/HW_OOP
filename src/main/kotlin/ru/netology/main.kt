@@ -1,7 +1,6 @@
 package ru.netology
 
 import java.util.*
-import kotlin.contracts.CallsInPlace
 
 data class Post(
     val id: Int,
