@@ -33,19 +33,19 @@ data class VideoAttachment(
 }
 
 data class AudioAttachment(
-    val video: Audio
+    val audio: Audio
 ) : Attachment {
     override val type: String = "audio"
 }
 
 data class FileAttachment(
-    val video: File
+    val file: File
 ) : Attachment {
     override val type: String = "file"
 }
 
 data class GeoAttachment(
-    val video: Geo
+    val geo: Geo
 ) : Attachment {
     override val type: String = "geo"
 }
